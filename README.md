@@ -11,6 +11,7 @@ The model is designed to recognize characters from image inputs and can be used 
 - **Output**: One of the 76 classes:
   - 39 uppercase Armenian letters (Ա–Ֆ)
   - 39 lowercase Armenian letters (ա–ֆ)
+  - Model's accuracy score is 0.95 (95%)
 
 ## 📦 Files
 
@@ -34,4 +35,4 @@ from tensorflow.keras.models import load_model
 import numpy as np
 from PIL import Image
 
-model = load_model("armenian_letter_classifier.h5")
+model = load_model("mashtocimg.h5")
